@@ -10,7 +10,7 @@
 
 @interface Superpowered : NSObject
 
-- (void)onPlayPause:(id)sender;
+- (void)onPlayPause;
 - (IBAction)onCrossFader:(id)sender;
 - (IBAction)onFxOff:(id)sender;
 - (IBAction)onFxValue:(id)sender;
